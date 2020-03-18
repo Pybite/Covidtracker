@@ -90,6 +90,7 @@ def main():
 Global deaths: [%s]
 Global recoveries: [%s]''' % (data['latest']['confirmed'], data['latest']['deaths'],data['latest']['recovered']))
  
+  # going to fix this ! 
     elif chk == "4":
         clear()
         corona_virus().recovered()
